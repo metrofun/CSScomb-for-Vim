@@ -608,7 +608,7 @@ class csscomb{
      * @TODO: https://github.com/miripiruni/CSScomb/issues/21
      *
      */
-    function csscomb($css = '', $echo = false, $custom_sort_order = null){
+    function csscomb($css = '', $echo = false, $custom_sort_order = 'yandex'){
         if($echo===0 or $echo===false){
             $this->output = false;
         }
